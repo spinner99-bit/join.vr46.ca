@@ -5,14 +5,14 @@
 }
 
 body{
-	background: black;
+	background: url(bg.jpg);
 	background-size: cover;
 	align-items: center;
 	justify-content: center;
 }
 
 .contac-link-row1{
-	margin-top: 30px;
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 }
@@ -46,6 +46,11 @@ body{
 	background-color: #32d851;
 }
 
+.upper-wor-tekan{
+	font-size: 16px;
+	color: red;
+}
+
 .per-contac-cover img{
 	height: 130px;
 	width: auto;
@@ -56,131 +61,78 @@ body{
 	margin-bottom: 10px;
 }
 
-.product-img-cover{
-	margin-top: 30px;
-	margin-bottom: 20px;
+.contac-row2-all-cover{
+	margin-top: 10px;
 }
 
-.product{
-	display: flex;
-}
-
-.product img{
-	width: auto;
-	height: 150px;
-	filter: grayscale(80%);
-	opacity: 0.7;
-}
-
-.product img:hover{
-	filter: grayscale(0);
-	opacity: 1;
-}
-
-.container-promotion{
+.contac-row2-per{
+	background-color: transparent;
+	width: 830px;
+	height: 66px;
+	border-radius: 30px;
+	border: 3px solid black;
 	margin-top: 20px;
-	height: 200px;
-	width: 900px;
-	background-color: #fbbc04;
-	text-align: center;
-}
-.container-promotion img{
-	width: 650px;
-	height: 200px;
-	float: left;
-}
-.container-promotion h2{
-	font-size: 15px;
-	font-weight: 900;
-	color: black;
-	text-align: center;
-	padding-top: 10px;
-}
-.container-promotion p{
-	font-size: 15px;
-	color: black;
-	text-align: center;
-	padding-top: 25px;
-}
-.container-promotion button{
-	font-size: 14px;
-	font-weight: 900;
-	width: 200px;
-	border-radius: 7px;
-	border-color: #04397f;
-	background-color: #04397f;
-	text-align: center;
-	margin-top: 25px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	color: white;
-}
-.container-promotion a{
-	color: white;
-	text-decoration: none;
-}
-
-.banner img{
-	margin-left: 10px;
-}
-
-.run-stop{
-	display: flex;
-	background-color: #fbbc04;
-}
-.run-stop marquee{
-	margin-right: 20px;
-	background-size: cover;
-}
-.run-stop h1{
-	color: black;
-	font-size: 14px;
-	font-weight: 900;
-	margin-bottom: 5px;
-	margin-top: 5px;
-}
-
-.payment-cover{
-	display: flex;
-	width: 900px;
-	border-radius: 20px;
-	background-color: #fbbc04;
-	margin-top: 20px;
-	overflow: hidden;
-}
-
-.model-cover img{
-	width: auto;
-	height: 350px;
-	margin-bottom: -10px;
-}
-
-.wor-pay-upper{
-	font-weight: 900;
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-
-.wor-pay-second{
-	font-weight: 900;
-}
-
-.set-bottom2{
-	margin-bottom: 20px;
-}
-
-.right-payment-cover{
 	align-content: center;
 }
 
-.bank-row1 img{
-	width: auto;
-	height: 70px;
-	border-radius: 20px;
-	overflow: hidden;
-	margin: 1px;
+.contac-row2-per a{
+	text-decoration: none;
 }
 
-.footer{
-	margin-bottom: 50px;
+.contac-row2-container-cover{
+	display: flex;
+	justify-content: left;
+}
+
+.contac-row2-left{
+	margin-left: 2px;
+	background-size: cover;
+}
+
+.contac-row2-left img{
+	width: 60px;
+	height: auto;
+}
+
+.contac-row2-right{
+	background-size: cover;
+	width: 100%;
+	align-content: center;
+}
+
+.contac-row2-wordi{
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+	color: black;
+}
+
+.contac-row2-per:hover{
+	background-color: #fbbc04;
+}
+
+.row1-pic-set{
+	margin-top: 30px;
+}
+
+.row2-pic-set{
+	margin-top: 10px;
+}
+
+.promotion-all-cover img{
+	width: auto;
+	height: 250px;
+	border-radius: 20px;
+}
+
+.pic-second{
+	margin-left: 10px;
+}
+
+.footer-div-rebate{
+	margin-bottom: 20px;
+}
+
+.footer-full-page{
+	margin-bottom: 100px;
 }
